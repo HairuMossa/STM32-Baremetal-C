@@ -46,3 +46,11 @@ void USART2_write (int ch) {
     while (!(USART2->SR & 0x0080)) {} // Wait until Tx buffer empty
     USART2->DR = (ch & 0xFF);
 }
+
+
+
+
+struct mystrucu{
+    _unit8
+
+} mystrucu
